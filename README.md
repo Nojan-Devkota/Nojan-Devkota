@@ -2,8 +2,6 @@
 
 ### I am passionate about AI and ML
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Nojan-Devkota&label=Profile views&color=0e75b6&style=flat" alt="Nojan-Devkota" /> </p>
-
 - 🔭 I'm currently working on **a Deep Learning**
 
 - 🌱 I'm currently learning **GenAI**
