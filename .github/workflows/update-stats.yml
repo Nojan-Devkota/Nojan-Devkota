@@ -1,0 +1,27 @@
+name: Update GitHub Stats Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs automatically once a day at midnight
+  workflow_dispatch: # Allows you to manually trigger the script
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allows the bot to save the images to your repo
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate GitHub Stats Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: 'username=${{ github.repository_owner }}&show_icons=true&theme=radical&hide_border=true'
+
+      - name: Generate Top Languages Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: 'username=${{ github.repository_owner }}&layout=compact&theme=radical&hide_border=true'

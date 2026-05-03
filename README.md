@@ -55,3 +55,11 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
+
+---
+
+### 📊 GitHub Stats
+<div align="left">
+  <img src="./profile/stats.svg" alt="GitHub Stats" height="150"/>
+  <img src="./profile/top-langs.svg" alt="Top Languages" height="150"/>
+</div>
