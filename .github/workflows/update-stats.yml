@@ -12,7 +12,7 @@ jobs:
       contents: write # Allows the bot to save the images to your repo
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Generate GitHub Stats Card
         uses: readme-tools/github-readme-stats-action@v1
